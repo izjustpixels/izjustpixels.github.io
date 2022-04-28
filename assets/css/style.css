@@ -1,0 +1,113 @@
+/* Style Settings */
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Coda&display=swap'); */
+ @import url('https://fonts.googleapis.com/css?family=VT323');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap'); */
+
+
+body {
+   background: #272736;
+   /* background: linear-gradient(90deg,#302c2e 0%,#f2e0cb 30%,#f2e0cb 70%, #302c2e 100%); */
+    /* background: url('../images/04-19\ first\ rock.png');  */
+    /* font-family: 'Open Sans', sans-serif; */
+    background-image:   url('../images/bg/stars-tiled-anim-sm.gif');
+    background-repeat: repeat;
+    background-size: 640px 480px;  /*set this to size of your bg*/
+    background-attachment: fixed;
+    font-family: 'VT323', sans-serif;
+    font-weight: 100;
+}
+
+a {
+    /* color: #ffffff; */
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+}
+
+a:hover {
+    /* background: #ffffffdd;
+    color: #4da6ff; */
+    text-shadow: none;
+}
+
+#userPhoto {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 100px auto 20px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 5px #22232b;
+}
+
+#userName {
+    color: #eeeeee;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #22232b;
+    margin: 25px auto 40px;
+}
+
+#userName h1 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem; 
+    margin: 10px auto;
+}
+
+#userName p {
+   font-size: 1.4rem;
+    font-weight: 100;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+i.fa {
+    margin-right: 0.3rem;
+}
+
+#links {
+    color: #eeeeee;
+    max-width: 400px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#links h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    /* letter-spacing: 0.2rem;  */
+    margin: 10px auto;
+    text-align: center;
+    text-shadow: 3px 3px 5px #22232be5;
+}
+
+/* big link buttons */
+
+.link {
+    display: block;
+    background: #272736;
+    color: #dff6f5;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 200;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border-radius: 10px;
+    outline: none;
+    border: 3px solid #d788ca;
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px #22232be5;
+}
+
+.link:hover {
+    background:  #d788ca;
+    color: #191a1d;
+    outline: none;
+    border: 3x solid #43434fcc;
+    border-radius: 7px;
+    box-shadow: 0 0 0px #22232be5;
+
