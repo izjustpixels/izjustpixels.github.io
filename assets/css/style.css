@@ -7,7 +7,7 @@
 
 body {
    background: #272736;
-   background: linear-gradient(90deg,#d788ca 0%,#272736 30%,#272736 70%, #d788ca 100%);
+   background: linear-gradient(90deg,#d788ca 0%,#272736 20%,#272736 80%, #d788ca 100%);
   /*uncomment the below lines for repeating pixel bg */
 /*     background-image:   url('../images/bg/stars-tiled-anim-sm.gif');
     background-repeat: repeat;
