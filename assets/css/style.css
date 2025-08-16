@@ -9,10 +9,10 @@ body {
    background: #272736;
    background: linear-gradient(90deg,#302c2e 0%,#f2e0cb 30%,#f2e0cb 70%, #302c2e 100%);
   /*uncomment the below lines for repeating pixel bg */
-    background-image:   url('../images/bg/stars-tiled-anim-sm.gif');
+/*     background-image:   url('../images/bg/stars-tiled-anim-sm.gif');
     background-repeat: repeat;
-    background-size: 640px 480px;  /*set this to size of your bg*/
-    background-attachment: fixed;
+   background-attachment: fixed;
+     background-size: 640px 480px; */  /*set this to size of your bg*/
   /* uncomment the above lines for repeating pixel bg */
     font-family: 'VT323', sans-serif;
     font-weight: 100;
